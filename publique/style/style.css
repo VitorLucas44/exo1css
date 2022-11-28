@@ -3,3 +3,14 @@ section{
     border-bottom: black;
     border: solid;
 }
+
+section:first-child {
+    color: blue;
+}
+section:nth-child(2){
+    border-color: red;
+    border-bottom: 5px;
+}
+h3, li{
+    color: red;
+}
