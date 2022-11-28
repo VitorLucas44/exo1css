@@ -11,6 +11,22 @@ section:nth-child(2){
     border-color: red;
     border-bottom: 5px;
 }
-h3, li{
+section:nth-child(3) h3, section:nth-child(3) li{
     color: red;
+}
+
+ul > li:nth-child(2)> a{
+    font-size: 25px;
+}
+
+h3 + span{
+    color: blue;
+}
+img{
+    border-radius: 100%;
+    border: 1px solid black;
+}
+section:last-of-type p:hover{
+    color: green;
+
 }
